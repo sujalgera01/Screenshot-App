@@ -8,4 +8,5 @@ def screenshot():
     img = pyautogui.screenshot(name)
     img.show()
 
-screenshot()
+for i in range(0,5):
+    screenshot()
